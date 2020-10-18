@@ -1,0 +1,32 @@
+p {
+    margin-bottom: 0.75rem;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+p b {
+    font-size: 1.06rem;
+}
+.dark-mode b {
+    color: rgba(255,255,255,0.95);
+}
+
+.resume-section-heading {
+    font-size: 1.4rem;
+}
+
+h5 {
+    font-size: 1.2rem;
+}
+
+h5 span{
+    font-size: 1.1rem;
+}
+
+.dark-mode .green-text {
+    color: #54B689;
+}
+
+.green-text-light {
+    color: #54B689;
+}
