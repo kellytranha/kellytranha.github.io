@@ -30,3 +30,7 @@ h5 span{
 .green-text-light {
     color: #54B689;
 }
+
+body.dark-mode .about-me-section {
+    border-bottom: none;
+}
