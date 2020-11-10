@@ -111,6 +111,19 @@
 					    </div>						
 					</div><!--//media-body-->
 				</div><!--//project-meta-->
+				<div id="adobe-dc-view" class="mt-5 mx-auto" style="height: 432px; width: 600px;"></div>
+				
+				<script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+				<script type="text/javascript">
+					document.addEventListener("adobe_dc_view_sdk.ready", function(){ 
+						var adobeDCView = new AdobeDC.View({clientId: "5626a94510a84c86bc56718dcfbf5c12", divId: "adobe-dc-view"});
+						adobeDCView.previewFile({
+							content:{location: {url: "https://raw.githubusercontent.com/kellytranha/kellytranha.github.io/master/assets/pdfs/DigiAds.pdf"}},
+							metaData:{fileName: "DigiAds.pdf"}
+						}, {embedMode: "SIZED_CONTAINER"});
+					});
+				</script>
+
 		    </div>
 	    </section>
 	    
