@@ -115,7 +115,6 @@
 				<div class="row">
 					<div id="adobe-dc-view" class="row pdf-container"></div>
 				</div>
-				
 				<script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
 				<script type="text/javascript">
 					document.addEventListener("adobe_dc_view_sdk.ready", function(){ 
@@ -123,7 +122,8 @@
 						adobeDCView.previewFile({
 							content:{location: {url: "https://raw.githubusercontent.com/kellytranha/kellytranha.github.io/master/assets/pdfs/BeLazy.pdf"}},
 							metaData:{fileName: "BeLazy.pdf"}
-						}, {embedMode: "SIZED_CONTAINER"});
+						}, {defaultViewMode: "FIT_WIDTH", showAnnotationTools: false, showLeftHandPanel: false, 
+							showPrintPDF: false});
 					});
 				</script>
 			</div>
