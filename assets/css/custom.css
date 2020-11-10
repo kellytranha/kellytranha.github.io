@@ -34,3 +34,7 @@ h5 span{
 body.dark-mode .about-me-section {
     border-bottom: none;
 }
+
+.pdf-container {
+    height: 800px;
+}
