@@ -110,7 +110,7 @@
 					    </div>						
 					</div><!--//media-body-->
 				</div><!--//project-meta-->
-				<div id="adobe-dc-view" class="pdf-container"></div>
+				<div id="adobe-dc-view" style="height: 360px; width: 500px;"></div>
 			</div>
 			<script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
 			<script type="text/javascript">
@@ -119,7 +119,7 @@
 					adobeDCView.previewFile({
 						content:{location: {url: "https://raw.githubusercontent.com/kellytranha/kellytranha.github.io/master/assets/pdfs/BeLazy.pdf"}},
 						metaData:{fileName: "BeLazy.pdf"}
-					}, {embedMode: "LIGHT_BOX"});
+					}, {embedMode: "SIZED_CONTAINER"});
 				});
 			</script>
 	    </section>
