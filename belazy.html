@@ -111,17 +111,18 @@
 					</div><!--//media-body-->
 				</div><!--//project-meta-->
 				<div id="adobe-dc-view" class="pdf-container"></div>
-				<script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
-				<script type="text/javascript">	
+			</div>
+			<div id="adobe-dc-view" style="height: 500px; width: 600px;"></div>
+			<script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+			<script type="text/javascript">
 				document.addEventListener("adobe_dc_view_sdk.ready", function(){ 
 					var adobeDCView = new AdobeDC.View({clientId: "5626a94510a84c86bc56718dcfbf5c12", divId: "adobe-dc-view"});
 					adobeDCView.previewFile({
 						content:{location: {url: "https://raw.githubusercontent.com/kellytranha/kellytranha.github.io/master/assets/pdfs/BeLazy.pdf"}},
 						metaData:{fileName: "BeLazy.pdf"}
-					}, {defaultViewMode: "FIT_WIDTH"});
+					}, {embedMode: "SIZED_CONTAINER"});
 				});
-			</script>
-			</div>
+</script>
 	    </section>
 	    
 	    <section class="promo-section theme-bg-light py-5 text-center">
