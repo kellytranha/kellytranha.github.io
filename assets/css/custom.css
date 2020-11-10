@@ -36,5 +36,6 @@ body.dark-mode .about-me-section {
 }
 
 .pdf-container {
-    height: 1000px;
+    display: flex;
+    align-items: center
 }
