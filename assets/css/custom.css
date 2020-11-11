@@ -42,3 +42,7 @@ body.dark-mode .about-me-section {
 .project-card .card-img-holder {
     max-height: none;
 }
+
+.videos {
+    margin-left: 500px;
+}
