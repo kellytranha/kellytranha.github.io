@@ -38,3 +38,7 @@ body.dark-mode .about-me-section {
 .pdf-container {
     height: 750px;
 }
+
+.project-card .card-img-holder {
+    max-height: none;
+}
